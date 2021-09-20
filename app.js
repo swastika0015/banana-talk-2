@@ -6,7 +6,7 @@ var textInput = document.querySelector("#text-input");
 
 var textOutput = document.querySelector("#text-output");
 
-var serverURL = "https://api.funtranslations.com/translate/doge.json"
+var serverURL = "https://api.funtranslations.com/translate/ferb-latin.json"
 
 function getTranslationURL(text){
     return serverURL + "?" + "text=" + text
